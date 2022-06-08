@@ -1,0 +1,61 @@
+/* Formatando a Página */
+*{
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Background da Página */
+body{
+    background-color: #40E0D0;
+    background-image: url("Design\ sem\ nome\ \(1\).png ");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Titulos */
+h1{
+    font-size: 75px;
+    color: #FF4500;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(#00FFFF, #00FFFF);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: left;
+
+    transition: 500ms;
+}
+
+h1:hover{
+    background-size: 100% 100%;
+    background-position-x: left;
+    text-align: center;
+}
+
+h2{
+    font-size: 50px;
+    color: #FF0000;
+    text-align: center;
+}
+
+/* Imagem de Exemplo */
+img{
+    width: 30%;
+    height: 25%;
+}
+
+.center{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
